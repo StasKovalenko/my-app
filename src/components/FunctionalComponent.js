@@ -5,7 +5,7 @@ const Counter = () => {
 
   const renderCounter = () => {
     const handleClick = (e) => {
-      if (e.target.innerHTML === 'Plus'){
+      if (e.target.innerHTML === "Plus"){
         return setCounter(counter + 1);
       }
       return setCounter(counter - 1);

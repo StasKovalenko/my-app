@@ -16,4 +16,3 @@ root.render(
     <SearchFormPure />
   </React.StrictMode>
 );
-
